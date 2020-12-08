@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h2>Regestration form</h2>
+    <table border="5" cellspacing="10">
+        <form>
+        <tr>
+
+        <td>Name</td>
+        <td><input type="text"name="phone" required minlength="3" maxlength="7"></td>
+
+        </tr><br>
+
+        <tr>
+        <td>Password</td>
+        <td><input type="password"name="password"placeholder="Enter Password" required></td>
+        </tr><br>
+
+        <tr>
+            <td>Email</td>
+            <td><input type="email"name="email"></td>
+         </tr> 
+
+         <tr>
+            <td>Phone No</td>
+            <td><input type="tel" pattern="[0-9]{10}" name="phone"></td>
+          </tr> 
+          <tr><td>Date of birth</td>
+        <td><input type="date"name="date"><br></td></tr>
+          <tr>
+              <td>Age</td>
+              <td><input type="number"name="age" min="18" max="80" step="2"></td></tr>
+
+          <td>Technology</td>
+            
+            <td>
+            <select name="Course" multiple size='3'>
+                <option>---select</option>
+                <option value="1">java</option>
+                <option>html</html></option>
+                <option>css</option>
+                <option>js</option>
+              </select><br></td></tr>
+
+              <tr> 
+                <td>Qualification</td>
+                  
+                <td><input type="checkbox"name="qua"value="BE/B.tech">BE/B.tech
+                    <input type="checkbox"name="qua"value="Bsc">Bsc
+                    <input type="checkbox"name="qua"value="Arts">Arts
+                    <input type="checkbox"name="qua"value="Commers">Commers</td>
+    
+               </tr><br>
+               <tr>
+                <td><input type="button"value="Register">
+                    <input type="reset"name="Reset"></td></tr>
+            </form>
+        </table>
+</body>
+</html>

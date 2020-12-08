@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Table</title>
+</head>
+<body>
+
+    <h3>Form Table</h3>
+    <table border="2">
+        <form action="contact.html">
+        <tr>
+
+        <td>Name</td>
+        <td><input type="text"name="phone" required minlength="3" maxlength="7"></td>
+
+        </tr><br>
+
+        <tr>
+        <td>Password</td>
+        <td><input type="password"name="password"placeholder="Enter Password" required></td>
+        </tr><br>
+
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio"name="gen1"check value="male">Male
+                <input type="radio"name="gen1"check value="female">Female</td>
+
+          </tr> <br>
+
+          <tr> 
+            <td>Hobbies</td>
+              
+            <td><input type="checkbox"name="hobies"value="sports">Sports
+                <input type="checkbox"name="hobies"value="music">music
+                <input type="checkbox"name="hobies"value="dance">dance
+                <input type="checkbox"name="hobies"value="drama">drama</td><br>
+
+            <tr>
+            <td>Technology</td>
+            
+            <td>
+            <select name="Course" multiple size='3'>
+                <option>---select</option>
+                <option value="1">java</option>
+                <option>html</html></option>
+                <option>css</option>
+                <option>js</option>
+              </select><br></td></tr><br>
+
+         <tr>
+            <td> Comments</td>
+            <td>
+            <textarea rows="5"cols="5"></textarea>
+            </td></tr><br>
+  
+            <tr> 
+                
+                <tr>
+                    <td><input type="button"value="Register">
+                        <input type="reset"name="Reset"></td>
+                </tr>
+            </form>
+
+        </table>
+
+</body>
+</html>
